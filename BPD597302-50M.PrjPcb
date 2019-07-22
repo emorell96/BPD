@@ -78,7 +78,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=2
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -87,6 +87,44 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GATHUXBD
+
+[Document4]
+DocumentPath=DiffAmp.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=3
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KLCPXLSL
+
+[Document5]
+DocumentPath=LPFilter.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ZKYKLWNI
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for BPD597302-50M\BPD597302-50M.nsx
+DItemRevisionGUID=
 
 [Parameter1]
 Name=Bandwidth
@@ -230,10 +268,10 @@ OutputDefault23=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother DCP-7065DN Printer (Copy 2)
+TargetPrinter=Send To OneNote 2016
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
+OutputType1=SIMPLISSimulation
+OutputName1=SIMPLIS
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
@@ -242,11 +280,15 @@ OutputName2=SIMetrix
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-OutputType3=SIMPLISSimulation
-OutputName3=SIMPLIS
+OutputType3=AdvSimNetlist
+OutputName3=Mixed Sim
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
+Configuration3_Name1=ForceUpdateSettings
+Configuration3_Item1=False
+Configuration3_Name2=OutputConfigurationParameter1
+Configuration3_Item2=Record=AdvSimNetlistView|SimulationName=Mixed Sim|ProfileId=DRQHYRWB|OldCfgLoaded=True
 
 [OutputGroup3]
 Name=Documentation Outputs
