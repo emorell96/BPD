@@ -173,17 +173,34 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EHWCBXJN
 
+[Document9]
+DocumentPath=VSupply3.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=8
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=YIXMPRFY
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for BPD597302-50M\BPD597302-50M.nsx
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Bandwidth
-Value=50M
-
-[Parameter2]
 Name=PD
 Value=S5973-02
+
+[Parameter2]
+Name=Bandwidth
+Value=50M
 
 [Configuration1]
 Name=Sources
@@ -1022,7 +1039,7 @@ Type65=1
 Type66=1
 
 [Electrical Rules Check]
-Type1=1
+Type1=0
 Type2=1
 Type3=2
 Type4=1
