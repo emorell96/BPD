@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for BPD597302-50M
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -428,7 +428,7 @@ TerminationPrefC7=0
 TerminationVCC7=5
 
 [Generic_EDE]
-OutputDir=Project Outputs for BPD597302-50M
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
